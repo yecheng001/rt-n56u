@@ -37,10 +37,10 @@
 
 #define DEF_WLAN_2G_CC		"CN"
 #define DEF_WLAN_5G_CC		"AU"
-#define DEF_WLAN_2G_SSID	BOARD_PID "newifi"
-#define DEF_WLAN_5G_SSID	BOARD_PID "newifi_5G"
-#define DEF_WLAN_2G_GSSID	BOARD_PID "newifi_GUEST"
-#define DEF_WLAN_5G_GSSID	BOARD_PID "newifi_GUEST_5G"
+#define DEF_WLAN_2G_SSID	"newifi"
+#define DEF_WLAN_5G_SSID	"newifi_5G"
+#define DEF_WLAN_2G_GSSID	"newifi_GUEST"
+#define DEF_WLAN_5G_GSSID	"newifi_GUEST_5G"
 #define DEF_WLAN_2G_PSK		"52019715"
 #define DEF_WLAN_5G_PSK		"52019715"
 
