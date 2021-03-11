@@ -151,11 +151,11 @@ fi
 }
 
 start_adg(){
-    mkdir -p /tmp/AdGuardHome
+    #mkdir -p /tmp/AdGuardHome
 	mkdir -p /etc/storage/AdGuardHome
-	if [ ! -f "/tmp/AdGuardHome/AdGuardHome" ]; then
-	dl_adg
-	fi
+	#if [ ! -f "/tmp/AdGuardHome/AdGuardHome" ]; then
+	#dl_adg
+	#fi
 	getconfig
 	change_dns
 	set_iptable
@@ -164,7 +164,7 @@ start_adg(){
 
 }
 stop_adg(){
-rm -rf /tmp/AdGuardHome
+#rm -rf /tmp/AdGuardHome
 killall -9 AdGuardHome
 del_dns
 clear_iptable
